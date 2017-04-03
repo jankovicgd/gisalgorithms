@@ -49,3 +49,4 @@ Temporary Items
 # Python cache and pycharm
 .idea
 kd_tree/__pycache__
+geometries/__pycache__
