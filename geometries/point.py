@@ -30,7 +30,7 @@ class Point():
 
     # Check whether two points are not equal
     def __ne__(self, other):
-        result = self.eq(other)
+        result = self.__eq__(other)
         if result is NotImplemented:
             return result
         return not result
@@ -75,8 +75,15 @@ class Point():
             return False
         return NotImplemented
 
-    # String function
+    # String
     def __str__(self):
+        if type(self.x) is int and type(self.y) is int:
+            return "({0}, {1})".format(self.x, self.y)
+        else:
+            return "({0:.1f}, {1:.1f})".format(self.x, self.y)
+
+    # Repr
+    def __repr__(self):
         if type(self.x) is int and type(self.y) is int:
             return "({0}, {1})".format(self.x, self.y)
         else:
