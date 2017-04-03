@@ -1,7 +1,7 @@
-# Computational concerns for algorithms
+# 1.1 Computational concerns for algorithms
 # Listing 1.1: Linear search to find point in a list
 
-# Initialize an empty list
+# Initialize an empty list for points
 l = []
 
 # Fill the list l with data by appending
