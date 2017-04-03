@@ -1,5 +1,5 @@
 # 1.1 Computational concerns for algorithms
-# Listing 1.2: Linear search to find point in a list
+# Listing 1.2: Linear search to find shortest pairwise distance in a list of points
 
 # Import mathematical functions
 from math import *
