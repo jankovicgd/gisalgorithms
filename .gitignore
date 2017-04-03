@@ -47,5 +47,5 @@ Temporary Items
 .apdisk
 
 # Python cache and pycharm
-kd_tree/.idea
+.idea
 kd_tree/__pycache__
