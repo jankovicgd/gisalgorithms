@@ -1,4 +1,4 @@
-# Point of the node
+# Define a 2d point for the node
 
 # In case of empty constructor generate random number
 from random import randint
