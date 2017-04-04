@@ -89,6 +89,10 @@ class Point():
         else:
             return "({0:.1f}, {1:.1f})".format(self.x, self.y)
 
-    # Distance function
+    # Euclidean distance function
     def distance(self, other):
         return sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
+
+    # Manhattan distance
+    def mandistance(self, other):
+        return abs(self.x - other.x) + abs(self.y - other.y)

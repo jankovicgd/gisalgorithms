@@ -24,3 +24,4 @@ print(len(a))
 
 # Print distance between a and b
 print(a.distance(b))
+print(a.mandistance(b))
