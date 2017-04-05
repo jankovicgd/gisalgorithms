@@ -1,7 +1,7 @@
 # 2.2 Distance between points
 # Listing 2.2: Calculating the great circle Distance
 
-#
+# Math import
 import math
 
 # Function spdist calculates spherical (great circle) distance between two points
@@ -19,7 +19,7 @@ def spdist(lat1, lon1, lat2, lon2):
     phi1 = math.radians(lat1)
     lambda1 = math.radians(lon1)
     phi2 = math.radians(lat2)
-    lambda2 = math.radians(lon2)    
+    lambda2 = math.radians(lon2)
     dlambda = lambda2 - lambda1
     dphi = phi2 - phi1
     sinlat = math.sin(dphi / 2.0)

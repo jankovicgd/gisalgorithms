@@ -1,3 +1,7 @@
+# 2.2 Distance from a point to a line
+# Listing 2.3: A python program to calculate point to line distance
+
+# Import math and point geometry
 from math import *
 from geometries.point import *
 
