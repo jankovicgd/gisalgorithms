@@ -3,6 +3,7 @@
 
 # Import all from point
 from geometries.point import *
+
 def centroid(pgon):
     """
     Calculates the centroid and area of a polygon.
@@ -16,7 +17,7 @@ def centroid(pgon):
     A = 0
     xmean = 0
     ymean = 0
-    for i in range(numvert-1):
+    for i in range(numvert - 1):
         ai = pgon[i].x * pgon[i + 1].y - pgon[i + 1].x * pgon[i].y
         A += ai
         xmean += (pgon[i + 1].x + pgon[i].x) * ai
