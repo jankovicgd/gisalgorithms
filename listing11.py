@@ -12,7 +12,7 @@ for x in range (30,50,5):
 # Test print
 print(l)
 
-# The point searched for
+# The searched point
 p = (30, 1)
 
 # Search for the point in a list

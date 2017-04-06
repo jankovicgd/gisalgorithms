@@ -16,7 +16,7 @@ for x in range (1, 10, 2):
     for y in range (1, 10, 3):
         l.append((x,y))
 
-# Fill the list m with data
+# Fill the list with data
 for x in range (34, 45, 4):
     for y in range (37, 50, 3):
         m.append((x,y))

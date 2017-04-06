@@ -1,3 +1,6 @@
+# 2.6 Intersection of two line segments
+# Listing 2.6: Data structure for a line segments
+
 import sys
 from point import *
 path = 'D:\TU_WIEN\workspacepython\Other\PY3\gisalgorithms'

@@ -4,7 +4,7 @@
 # Math import
 import math
 
-# Function spdist calculates spherical (great circle) distance between two points
+# Function spdist calculates great circle distance between two points
 def spdist(lat1, lon1, lat2, lon2):
     """
     Calculates the great circle distance given the latitudes and longitudes of two points

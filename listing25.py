@@ -17,6 +17,7 @@ def sideplr(p, p1, p2):
     """
     return int((p.x - p1.x) * (p2.y - p1.y) - (p2 . x - p1.x) * (p.y - p1.y))
 
+# Examples
 if __name__ == "__main__":
     p = Point(1, 1)
     p1 = Point(0, 0)

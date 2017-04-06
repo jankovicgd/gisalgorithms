@@ -22,6 +22,6 @@ print(a <= b)
 # Print length of a
 print(len(a))
 
-# Print distance between a and b
+# Print Euclidean and Manhattan distance between a and b
 print(a.distance(b))
 print(a.mandistance(b))

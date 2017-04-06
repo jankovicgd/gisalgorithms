@@ -31,6 +31,7 @@ def point2line(p, p1, p2):
         d = abs(a * x0 + b * y0 + c) / sqrt(a * a + b * b)
     return d
 
+# Examples
 if __name__ == "__main__":
     p, p1, p2 = Point(10, 0), Point(0, 100), Point(0, 1)
     print(point2line(p, p1, p2))
