@@ -11,6 +11,7 @@ def getIntersectionPoint(s1, s2):
     This function assumes s1 and s2 intersect.
     Intersection must be tested before calling the function
     """
+    # Convert to float
     x1 = float(s1.lp0.x)
     y1 = float(s1.lp0.y)
     x2 = float(s1.rp.x)
