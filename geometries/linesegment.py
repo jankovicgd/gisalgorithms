@@ -2,7 +2,7 @@
 # Listing 2.6: Data structure for a line segments
 
 import sys
-from point import *
+from geometries.point import *
 path = 'D:\TU_WIEN\workspacepython\Other\PY3\gisalgorithms'
 sys.path.insert(0, path)
 from listing25 import *
@@ -33,8 +33,8 @@ class Segment:
 
     def __eq__(self, other):
         if isinstance(other, Segment):
-            return (self.lp == other.lp and self.rp == other.rp) or
-                    (self.lp == other.rp and self.rp == other.lp)
+            return (self.lp == other.lp and self.rp == other.rp) or \
+                   (self.lp == other.rp and self.rp == other.lp)
         return NotImplemented
 
     def __ne__(self, other):
@@ -58,7 +58,7 @@ class Segment:
                         return lr < 0
                     else:
                         return lr > 0
-    return NotImplemented
+        return NotImplemented
 
     def __gt__(self, other):
         result = self.__lt__(other)
