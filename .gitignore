@@ -50,4 +50,4 @@ Temporary Items
 .idea
 kd_tree/__pycache__
 geometries/__pycache__
-../__pycache__
+__pycache__
