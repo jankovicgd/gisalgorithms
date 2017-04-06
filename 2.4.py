@@ -1,5 +1,5 @@
-# 2.3 Distance from a point to a line
-# Listing 2.3: A python program to calculate point to line distance
+# 2.4 Polygon centroid and area
+# Listing 2.4: A python program for calculating the area and centroid of a polygon
 
 # Import all from point
 from geometries.point import *
